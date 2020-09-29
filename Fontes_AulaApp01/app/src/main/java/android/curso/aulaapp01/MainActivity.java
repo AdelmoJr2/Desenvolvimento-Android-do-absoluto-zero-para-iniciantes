@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Segundo nome: "+segundoNome.getText(),Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(),"Telefone: "+telefone.getText(),Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(),"Email: "+email.getText(),Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Parabéns! Seus dados foram salvos com sucesso...: "+email.getText(),Toast.LENGTH_LONG).show();
     }
 
     private void initFormulario() {

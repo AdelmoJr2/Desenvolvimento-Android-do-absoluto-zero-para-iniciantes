@@ -33,15 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         context = getApplicationContext();
 
-        editFabricante = findViewById(R.id.editFabricante);
-        editModelo = findViewById(R.id.editModelo);
-        editAno = findViewById(R.id.editAno);
-        editCor = findViewById(R.id.editCor);
-
-        chkPartida = findViewById(R.id.chkPartida);
-        chkFarol = findViewById(R.id.chkFarol);
-
-        imgCarro = findViewById(R.id.imgCarro);
+        intitFormulario();
 
         chkFarol.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,6 +76,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void intitFormulario() {
+        editFabricante = findViewById(R.id.editFabricante);
+        editModelo = findViewById(R.id.editModelo);
+        editAno = findViewById(R.id.editAno);
+        editCor = findViewById(R.id.editCor);
+
+        chkPartida = findViewById(R.id.chkPartida);
+        chkFarol = findViewById(R.id.chkFarol);
+
+        imgCarro = findViewById(R.id.imgCarro);
     }
 
 

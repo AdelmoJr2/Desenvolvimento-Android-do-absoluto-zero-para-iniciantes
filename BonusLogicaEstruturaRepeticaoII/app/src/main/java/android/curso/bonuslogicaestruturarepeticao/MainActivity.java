@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         linguagens.add("C++");
         linguagens.add("Prolog");
         linguagens.add("Pascal");
+        //Adicionando lista de Linguagens
     }
 
     @Override

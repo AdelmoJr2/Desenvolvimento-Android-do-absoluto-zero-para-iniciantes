@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         linguagens.add("Prolog");
         linguagens.add("Pascal");
         //Adicionando lista de Linguagens
+        //Ajustei comentério no Github
     }
 
     @Override
